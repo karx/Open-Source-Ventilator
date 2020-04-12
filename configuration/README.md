@@ -99,11 +99,11 @@ with an infant to prevent damaging their lungs with an adult setting.
 | arduinoNano | activeBeeper | active beeper can be used on any pin. Passive beeper will require a PWM capable pin | Exists | 🐨 | - |
 | arduinoNano | Led | Led debugging / Signal (should be disabled if SPI peripherals are present) | Exists | 🐨 | - |
 | arduinoNano | BoschBMxSensor | Bosch Sensortech BMP280 or BME280 | Exists | 🐨 | - |
-| arduinoNano | BoschBMP180Sensor |  Bosch Sensortech BMP180  | Exists | ❌ |
-| arduinoNano | TwoPressureSensors |  Double pressure sensor (one for barometric pressure) | Exists | ❌ |
+| arduinoNano | BoschBMP180Sensor |  Bosch Sensortech BMP180  | Exists | 🐨 | ❌ |
+| arduinoNano | TwoPressureSensors |  Double pressure sensor (one for barometric pressure) | Exists | 🐨 | ❌ |
 | arduinoNano | stepDirMotor | Control the motor with step and Direction signals | Exists | 🐨 | - |
 | arduinoNano | disableMotorctrl | control moter activation / desactivation       | Exists | 🐨 | - |
-| arduinoNano | CurrentSense |  uncomment to add motor current sensing with the Allegromicro ACS712 sensor | Exists | ❌ |
-| arduinoNano | watchdog |  watchdog settings.  | Exists | ❌ |
+| arduinoNano | CurrentSense |  uncomment to add motor current sensing with the Allegromicro ACS712 sensor | Exists | 🐨 | ❌ |
+| arduinoNano | watchdog |  watchdog settings.  | Exists | 🐨 | ❌ |
 | arduinoNano | serialTelemetry | Sends real time data about time, current breathing phase, motor position, pressure  | Exists | 🐨 | - |
 | arduinoNano | eepromVersion | version 1.00 of the eeprom data structure | 100 | 🐨 | - |
