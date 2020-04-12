@@ -48,7 +48,7 @@ The following document list, describes and aims to categorize into either `compi
 | defaultHumidity |  humidity in % RH returned when no sensor is found | 50    | - | - |
 | defaultTemperature | temperature in °C returned when no sensor is found | 20.00 | - | - |
 | alarmCompressionValue |  if the pressure exceeds the presed value * alarmCompressionValue, then trigger an alarm and stop the motor if needed   | 1.1  | - | - |
-| minAtmosphericPressure |  minimum atmospheric pressure that would be considered valid (15000 ft / 4577m) // Source : https://www.avs.org/AVS/ |  files/c7/c7edaedb-95b2-438f-adfb-36de54f87b9e.pdf   | 583    | - | - |
+| minAtmosphericPressure |  minimum atmospheric pressure that would be considered valid (15000 ft / 4577m) // Source : https://www.avs.org/AVS/files/c7/c7edaedb-95b2-438f-adfb-36de54f87b9e.pdf   | 583    | - | - |
 | maxAtmosphericPressure |  maximum atmospheric pressure that would be considered valid  | 1200    | - | - |
 
 
