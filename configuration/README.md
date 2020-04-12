@@ -7,6 +7,8 @@ The following document list, describes and aims to categorize into either `compi
 
 🐰 `run-type` settings would include: breath, temprature, periferal states, etc. These are updated on the run-time. Can have UI/UX available to update.
 
+*Proposed*: 🐬 `admin-type` setting would include settings that can be updated after deployment, to hotfix/error correct/calibrate/hack the device after deployment.
+
 ###  DEVICE OPERATIONAL PARAMETERS
 
  The values are taken from various documents including :
