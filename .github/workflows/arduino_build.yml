@@ -1,0 +1,22 @@
+# This workflow will run a build for Arduino UNO board for all PRs.
+## // TODO Update to use the branch :{
+
+name: Arduino Uno Build
+on: [pull_request]
+
+jobs:
+  label:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Setup build env
+      run: |
+            chmod +x ./scripts/moveFiles.sh
+            ./setup_build_env.sh
+    - name: build
+      run: |
+            git clone https://github.com/ermtl/Open-Source-Ventilator.git
+            cd Open-Source-Ventilator/OpenSourceVentilator/
+            arduino-cli compile --fqbn arduino:avr:uno -o ignored.bin OpenSourceVentilator.ino
+        
