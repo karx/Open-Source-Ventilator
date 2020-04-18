@@ -12,8 +12,9 @@ jobs:
     steps:
     - name: Setup build env
       run: |
-            chmod +x ./setup_build_env.sh
-            ./setup_build_env.sh
+            ls -al
+            chmod +x .github/workflows/setup_build_env.sh
+            .github/workflows/setup_build_env.sh
     - name: build
       run: |
             git clone https://github.com/ermtl/Open-Source-Ventilator.git
