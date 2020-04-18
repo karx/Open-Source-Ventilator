@@ -2,7 +2,7 @@
 ## // TODO Update to use the branch :{
 
 name: Arduino Uno Build
-on: [pull_request]
+on: push
 
 jobs:
   label:
